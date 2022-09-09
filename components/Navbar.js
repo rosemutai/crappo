@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <header className="navbar md:mx-8 md:flex md:justify-between md:items-center md:h-16">
+    <header className="navbar md:mx-12 md:flex md:justify-between md:items-center md:h-24">
         <div className="logo">
-            <h2 className="text-white font-semibold font-inter tracking-widest">CRAPPO</h2>
+            <h2 className="text-white font-semibold font-inter tracking-widest md:ml-16 ">CRAPPO</h2>
         </div>
 
         <div className="menu">
