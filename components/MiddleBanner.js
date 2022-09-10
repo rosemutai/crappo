@@ -6,7 +6,7 @@ import { faPlay} from "@fortawesome/free-solid-svg-icons";
 
 const MiddleBanner = () => {
   return (
-    <div className="middle-banner md:w-10/12  md:mx-auto  md:flex md:justify-between md:mt-2">
+    <div className="middle-banner md:w-10/12  md:mx-auto  md:flex md:justify-between md:items-center md:mt-2">
         <div className="left-side md:mt-16">
             <div className="discount-button bg-gray-600 rounded-3xl p-2 md:flex md:justify-between
                 md:w-96 text-sm font-light ">
@@ -30,7 +30,7 @@ const MiddleBanner = () => {
             </button>
         </div>
        
-        <div className="right-side">
+        <div className="right-side md:-mt-5 md:w-1/2 ">
             <Image
                 src={hero}
                 alt="crypto"
