@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBarChart, faRoadLock, faUser} from "@fortawesome/free-solid-svg-icons";
+import { faBarChart, faRoadLock, faUser, faAngleRight} from "@fortawesome/free-solid-svg-icons";
+
 
 import whyImg from '../public/images/why-img.png'
 import bitcoin from '../public/images/bitcon.png'
@@ -111,13 +112,15 @@ const Advertisement = () => {
 
         </div>
 
-        <div className='trade md:flex md:flex-col bg-gray-300 md:absolute md:w-full  md:z-20'>
+        <div className='trade md:flex md:flex-col bg-gray-200 md:absolute md:w-full  md:z-20'>
             <div className='title'>
-                <h2 className='text-black font-rubik text-center font-semibold text-xl my-3'>Trade Securely And Market The High Growth Cryptocurrencies.</h2>
+                <h2 className='text-black font-rubik text-center font-semibold text-xl md:my-8'>Trade Securely And Market The High Growth Cryptocurrencies.</h2>
             </div>
 
-            <div className='cards md:w-10/12 md:mx-auto bg-red-600 md:mt-5 md:flex md:justify-between'>
-                <div className='card md:w-96 md:flex md:flex-col md:justify-center md:items-center bg-white py-4 md:h-96'>
+            <div className='cards md:w-10/12 md:mx-auto  md:mt-5 md:flex md:justify-between'>
+                <div className='card md:w-80 md:flex md:flex-col md:justify-center md:items-center 
+                bg-white py-4 md:h-96 active:bg-violet-900
+                    shadow rounded-md md:mb-3'>
                     <div className='image'>
                         <Image
                             src={bitcoin}
@@ -127,9 +130,68 @@ const Advertisement = () => {
                     </div>
                     <div className='md:flex md:my-3'>
                             <h4 className='font-extrabold font-rubik text-2xl tracking-wide'>Bitcoin </h4>
-                            <span className='text-gray-500 md:ml-2 text-xl tracking-wide md:-mt-2'>BTC</span>
+                            <span className='text-gray-500 md:ml-2 text-xl tracking-wide md:-mt-1'>BTC</span>
                     </div>
-                    <div><p className=''>Digital currency in which a record of transactions is maintained.</p></div>
+                    <div><p className='font-rubik md:mx-auto md:w-3/4 text-center'>
+                        Digital currency in which a record of transactions is maintained.</p>
+                    </div>
+
+                    <div className='next-btn'>
+                        <FontAwesomeIcon 
+                            icon={faAngleRight}
+                            className="text-lightblue md:mt-6 border-2 border-gray-400 py-6 px-7 text-xl rounded-full"
+                        />
+                    </div>
+                </div>
+
+                <div className='card md:w-80 md:flex md:flex-col md:justify-center md:items-center bg-white py-4 md:h-96
+                    shadow rounded-md md:mb-3'>
+                    <div className='image'>
+                        <Image
+                            src={etherum}
+                            alt="ethereum logo"
+                        />
+                    
+                    </div>
+                    <div className='md:flex md:my-3'>
+                            <h4 className='font-extrabold font-rubik text-2xl tracking-wide'>Bitcoin </h4>
+                            <span className='text-gray-500 md:ml-2 text-xl tracking-wide md:-mt-1'>BTC</span>
+                    </div>
+                    <div><p className='font-rubik md:mx-auto md:w-3/4 text-center'>
+                        Blockchain technology to create and run decentralized digital applications.</p>
+                    </div>
+
+                    <div className='next-btn'>
+                        <FontAwesomeIcon 
+                            icon={faAngleRight}
+                            className="text-lightblue md:mt-6 border-2 border-gray-400 py-6 px-7 text-xl rounded-full"
+                        />
+                    </div>
+                </div>
+
+                <div className='card md:w-80 md:flex md:flex-col md:justify-center md:items-center bg-white py-4 md:h-96
+                    shadow rounded-md md:mb-3'>
+                    <div className='image'>
+                        <Image
+                            src={litecoin}
+                            alt="litecoin logo"
+                        />
+                    
+                    </div>
+                    <div className='md:flex md:my-3'>
+                            <h4 className='font-extrabold font-rubik text-2xl tracking-wide'>Bitcoin </h4>
+                            <span className='text-gray-500 md:ml-2 text-xl tracking-wide md:-mt-1'>BTC</span>
+                    </div>
+                    <div><p className='font-rubik md:mx-auto md:w-3/4 text-center'>
+                        Cryptocurrency that enables instant payments to anyone in the world.</p>
+                    </div>
+
+                    <div className='next-btn'>
+                        <FontAwesomeIcon 
+                            icon={faAngleRight}
+                            className="text-lightblue md:mt-6 border-2 border-gray-400 py-6 px-7 text-xl rounded-full"
+                        />
+                    </div>
                 </div>
             </div>
             </div>
