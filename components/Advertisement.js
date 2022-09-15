@@ -10,54 +10,51 @@ import litecoin from '../public/images/litecoin.png'
 const Advertisement = () => {
   return (
     <div className=" md:flex md:flex-col">
-        <div className="ad-section md:flex md:justify-around md:mt-11">
-        <div className="digital md:flex md:justify-between">
-                <FontAwesomeIcon
-                    icon={faBarChart} 
-                    className="text-blue-600 bg-gray-500 rounded-full p-5 text-2xl"
-                />
-                <div className="md:flex md:flex-col md:justify-center md:px-3">
-                    <h5 className="font-bold text-white text-xl font-rubik">$30B</h5>
-                    <p className="font-rubik font-extralight text-sm text-gray-400">Digital Currency Exchange</p>
-                </div>
+        <div className="ad-section md:flex md:justify-around md:my-12">
+            <div data-aos="fade-up"  className="digital md:flex md:justify-between">
+                    <FontAwesomeIcon
+                        icon={faBarChart} 
+                        className="text-blue-600 bg-gray-500 rounded-full p-5 text-2xl"
+                    />
+                    <div className="md:flex md:flex-col md:justify-center md:px-3">
+                        <h5 className="font-bold text-white text-xl font-rubik">$30B</h5>
+                        <p className="font-rubik font-extralight text-sm text-gray-400">Digital Currency Exchange</p>
+                    </div>
+            </div>
+
+            <div data-aos="fade-up" className="global md:flex md:justify-between">
+                    <FontAwesomeIcon
+                        icon={faRoadLock} 
+                        className="text-blue-600 bg-gray-500 rounded-tr-full rounded-tl-full rounded-br-full 
+                            rounded-bl-full rounded-3xl p-5 text-xl"
+                    />
+                    <div className="lock md:flex md:flex-col md:justify-center md:px-3">
+                        <h5 className="font-bold text-white text-xl font-rubik">190+</h5>
+                        <p className="font-rubik font-extralight text-sm text-gray-400">Countries Around The World</p>
+                    </div>
+            </div>
+
+            <div data-aos="fade-up" className="user md:flex md:justify-between">
+                    <FontAwesomeIcon
+                        icon={faUser} 
+                        className="text-blue-600 bg-gray-500 rounded-full p-5 text-2xl"
+                    />
+
+                    <div className="lock md:flex md:flex-col md:justify-center md:px-3">
+                        <h5 className="font-bold text-white text-xl font-rubik">$10M</h5>
+                        <p className="font-rubik font-extralight text-sm text-gray-400">Trusted Wallet Investors</p>
+                    </div>
+                    
+            </div>
         </div>
-
-        <div className="global md:flex md:justify-between">
-                <FontAwesomeIcon
-                    icon={faRoadLock} 
-                    className="text-blue-600 bg-gray-500 rounded-tr-full rounded-tl-full rounded-br-full 
-                        rounded-bl-full rounded-3xl p-5 text-xl"
-                />
-                <div className="lock md:flex md:flex-col md:justify-center md:px-3">
-                    <h5 className="font-bold text-white text-xl font-rubik">190+</h5>
-                    <p className="font-rubik font-extralight text-sm text-gray-400">Countries Around The World</p>
-                </div>
-        </div>
-
-        <div className="user md:flex md:justify-between">
-                <FontAwesomeIcon
-                    icon={faUser} 
-                    className="text-blue-600 bg-gray-500 rounded-full p-5 text-2xl"
-                />
-
-                <div className="lock md:flex md:flex-col md:justify-center md:px-3">
-                    <h5 className="font-bold text-white text-xl font-rubik">$10M</h5>
-                    <p className="font-rubik font-extralight text-sm text-gray-400">Trusted Wallet Investors</p>
-                </div>
-                
-        </div>
-            
-
-
-        </div>
-        <div className="image-description md:flex md:justify-between md:mt-16">
-            <div className="image md:w-1/2 md:ml-11">
+        <div className="image-description md:flex md:justify-between md:mt6">
+            <div data-aos="fade-up" className="image md:w-1/2 md:ml-11">
                 <Image 
                     src={whyImg}
                     alt="why"
                 />
             </div>
-            <div className="description md:w-1/2 md:flex md:flex-col md:justify-center ">
+            <div data-aos="fade-up-right" className="description md:w-1/2 md:flex md:flex-col md:justify-center ">
                 <h3 className='text-white font-semibold md:mt-5 text-5xl leading-tight  
                 tracking-normal'>Why you should choose Chappo</h3>
                 <p className='font-rubik font-extralight text-lg text-gray-400 tracking-tight md:my-3'>
@@ -68,7 +65,7 @@ const Advertisement = () => {
                 flex justify-center items-center">learn more </button>
             </div>
         </div>
-        <div className='how-much-can-you-earn md:mt-11 md:relative'>
+        <div className='how-much-can-you-earn md:mt-11'>
             <div className='md:flex md:flex-col md:justify-center md:items-center'>
                 <h3 className='earn-title text-white font-xl font-semibold'>How Much Can You Earn With Us</h3>
                 <p className='font-rubik font-extralight text-sm text-gray-400 tracking-tight md:my-3'>
@@ -112,15 +109,14 @@ const Advertisement = () => {
 
         </div>
 
-        <div className='trade md:flex md:flex-col bg-gray-200 md:absolute md:w-full  md:z-20'>
+        <div className='trade md:flex md:flex-col bg-gray-200 md:w-full'>
             <div className='title'>
                 <h2 className='text-black font-rubik text-center font-semibold text-xl md:my-8'>Trade Securely And Market The High Growth Cryptocurrencies.</h2>
             </div>
 
-            <div className='cards md:w-10/12 md:mx-auto  md:mt-5 md:flex md:justify-between'>
+            <div  data-aos="fade-down" className='cards md:w-10/12 md:mx-auto  md:mt-5 md:flex md:justify-between'>
                 <div className='card md:w-80 md:flex md:flex-col md:justify-center md:items-center 
-                bg-white py-4 md:h-96 active:bg-violet-900
-                    shadow rounded-md md:mb-3'>
+                    bg-white py-4 md:h-96 active:bg-violet-900  focus:bg-violet-900 shadow rounded-md md:mb-3'>
                     <div className='image'>
                         <Image
                             src={bitcoin}
@@ -144,8 +140,8 @@ const Advertisement = () => {
                     </div>
                 </div>
 
-                <div className='card md:w-80 md:flex md:flex-col md:justify-center md:items-center bg-white py-4 md:h-96
-                    shadow rounded-md md:mb-3'>
+                <div className='card md:w-80 md:flex md:flex-col md:justify-center md:items-center
+                    bg-white py-4 md:h-96 shadow rounded-md md:mb-3'>
                     <div className='image'>
                         <Image
                             src={etherum}
@@ -169,8 +165,8 @@ const Advertisement = () => {
                     </div>
                 </div>
 
-                <div className='card md:w-80 md:flex md:flex-col md:justify-center md:items-center bg-white py-4 md:h-96
-                    shadow rounded-md md:mb-3'>
+                <div className='card md:w-80 md:flex md:flex-col md:justify-center md:items-center 
+                    bg-white py-4 md:h-96 shadow rounded-md md:mb-3'>
                     <div className='image'>
                         <Image
                             src={litecoin}
@@ -194,8 +190,20 @@ const Advertisement = () => {
                     </div>
                 </div>
             </div>
-            </div>
         </div>
+        </div>
+
+       
+
+
+
+
+
+
+
+       
+
+        
     </div>
   )
 }
