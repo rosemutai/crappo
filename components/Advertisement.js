@@ -50,7 +50,7 @@ const Advertisement = () => {
 
                 </div>
             </div>
-            <div className="image-description md:flex md:justify-between md:mt6">
+            <div className="image-description md:flex md:justify-between md:pl-0 pl-3">
                 <div data-aos="fade-up" className="image md:w-1/2 md:ml-11">
                     <Image
                         src={whyImg}
@@ -69,7 +69,7 @@ const Advertisement = () => {
                 flex justify-center items-center hover:shadow-md hover:shadow-lightblue">Learn More </button>
                 </div>
             </div>
-            <div className='how-much-can-you-earn mt-11'>
+            <div className='how-much-can-you-earn mt-11 md:pl-0 pl-3'>
                 <div className='md:flex md:flex-col md:justify-center md:items-center'>
                     <h3 className='earn-title text-white font-xl font-semibold'>How Much Can You Earn With Us</h3>
                     <p className='font-rubik font-extralight text-sm text-gray-400 tracking-tight my-3'>
@@ -78,7 +78,7 @@ const Advertisement = () => {
                     </p>
                 </div>
 
-                <div className='flex flex-col w-full md:w-8/12 md:h-72 md:mx-auto mt-8 rounded-md
+                <div className='flex flex-col pr-3 md:w-8/12 md:h-72 mr-2 md:mx-auto mb-8 md:mb-0 mt-8 rounded-md
                     bg-white py-11 md:px-20'>
                     <div className='calculations flex py-2 md:py-0 justify-between'>
                         <div>
