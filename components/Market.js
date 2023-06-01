@@ -33,7 +33,7 @@ const Market = () => {
       <div data-aos="flip-left" className="md:hidden w-8/12 mx-auto invest-smart flex flex-col  justify-between md:px-32 ">
         <div className="description">
           <h4 className='text-white font-rubik font-semibold text-xl mt-10 text-center'>Detailed Statistics</h4>
-          <div className="image-section w-full mt-3 md:mt-0 ">
+          <div className="image-section mt-3 md:mt-0 ">
             <Image
               src={feature2}
               alt=""
@@ -119,7 +119,7 @@ const Market = () => {
         </div>
 
         <div data-aos="zoom-in-right" className="start-mining md:flex md:justify-between md:items-center 
-          md:px-16 mt-24 bg-lightblue md:w-10/12
+          mx-3 md:px-16 mt-24 bg-lightblue md:w-10/12
             bg-[url('../public/images/newsletterbox.png')] bg-contain md:mb-5 md:h-56 rounded-md md:mx-auto">
           <div className="description">
             <div className="title">
