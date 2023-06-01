@@ -15,6 +15,7 @@
   - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
     - [Tech Stack ](#tech-stack-)
   - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -23,7 +24,6 @@
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [:busts\_in\_silhouette: Authors ](#busts_in_silhouette-authors-)
-  - [Future Features ](#future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -63,10 +63,16 @@ This project is built with React
 
 ## Key Features <a name="key-features"></a>
 
-- **Linters SetUp**
-- **Follow JavaScript best practices**
-- **Set up project using React**
+- **Use AOS for Animation**
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://crappo-osb6vn8gm-rosemutai.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,13 +143,6 @@ git@github.com:rosemutai/crappo.git
 - GitHub: [rosemutai](https://github.com/rosemutai)
 - Twitter: [__chepngetich](https://twitter.com/__chepngetich)
 - LinkedIn: [Rose Mutai](https://www.linkedin.com/in/rosemutai/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-## Future Features <a name="future-features"></a>
-
-- [ ] **Add Animation**<br/>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
