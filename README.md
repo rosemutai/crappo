@@ -1,35 +1,171 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+  <h3><b>CRAPPO</b></h3>
 
-```bash
-npm run dev
-# or
-yarn dev
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 CRAPPO ](#-crappo-)
+  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [:busts\_in\_silhouette: Authors ](#busts_in_silhouette-authors-)
+  - [Future Features ](#future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 CRAPPO <a name="about-project"></a>
+
+This project is built with React
+
+**CRAPPO** is a simple crypto web application
+
+## :hammer_and_wrench: Built With <a name="built-with"></a>
+- React
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Version Control</summary>
+  <ul>
+    <li><a href="https://github.com/">Git Hub</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+## Key Features <a name="key-features"></a>
+
+- **Linters SetUp**
+- **Follow JavaScript best practices**
+- **Set up project using React**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+- Visual Studio Code.
+- Node JS.
+- Git bash.
+- GitHub Account.
+- Installation of NPM
+
+<!--
+Example command:
+```sh
+ gem install rails
 ```
+ -->
+### Setup
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to github and find the repository CRAPPO
+Click on code and copy then go to your gitbash cli on your computer Clone this repository to your desired folder
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<!--
+Example commands:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```sh
+  cd my-folder
+  git clone git@github.com:rosemutai/CRAPPO.git
+```
+--->
+### Install
+Install this project with:
+npm
+Example command:
+```sh
+  cd my-projectFolder
+  npm install
+```
+### Usage
+To run the project, execute the following command:
+Open the cloned folder in your git terminal. Then run 'npm run dev'.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Run tests
+To run tests, run the following command:
+npm run test
+Example command:
+```sh
+  npm test
+```
+### Deployment
+You can deploy this project using:
+GitHub Pages
+Example:
+```sh
+git@github.com:rosemutai/crappo.git
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+## :busts_in_silhouette: Authors <a name="authors"></a>
+:bust_in_silhouette: **ROSE MUTAI**
+- GitHub: [rosemutai](https://github.com/rosemutai)
+- Twitter: [__chepngetich](https://twitter.com/__chepngetich)
+- LinkedIn: [Rose Mutai](https://www.linkedin.com/in/rosemutai/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn more about Next.js, take a look at the following resources:
+<!-- FUTURE FEATURES -->
+## Future Features <a name="future-features"></a>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ ] **Add Animation**<br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Deploy on Vercel
+<!-- CONTRIBUTING -->
+## 🤝 Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!<br/>
+Feel free to check the [https://github.com/rosemutai/crappo/issues.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- SUPPORT -->
+## ⭐️ Show your support <a name="support"></a>
+If you like this project please follow me on github & twitter and also connect on Linkedin.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-Tried the 360Day challenge from twitter by building this crypto webapp frontend
+<!-- ACKNOWLEDGEMENTS -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+I would like to thank <a href="https://twitter.com/codingossy">@codingossy</a> for this challenge
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/rosemutai/crappo/blob/main/LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
